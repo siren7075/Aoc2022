@@ -8,5 +8,5 @@ def execute(s: str) -> int:
         # part 2
     return sum(ns[-3:])
     
-    with open('/input.txt') as f:
-      print(execute(f.read()))
+with open('/input.txt') as f:
+  print(execute(f.read()))
